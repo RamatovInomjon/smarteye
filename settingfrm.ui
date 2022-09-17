@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingFrm</class>
+ <widget class="QDialog" name="SettingFrm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>a_LCDNova</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки порта</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Токен бота:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Chat ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Фотографии:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="edtBotToken"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="edtChatId"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="edtPhotoDir"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnSetport">
+     <property name="text">
+      <string>Сохранить настройки порта</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
